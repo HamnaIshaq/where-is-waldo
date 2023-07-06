@@ -1,13 +1,14 @@
+import Header from "./components/Header";
 import "./assets/style.css";
 
 const App = () => {
   const onClickCheckImage = (e) => {
     // min and max percentage values of image to found
     const minX = 45;
-    const minY = 12;
+    const minY = 29;
 
     const maxX = 47;
-    const maxY = 19;
+    const maxY = 34;
 
     // clicked coord in percentage
     const X = Math.floor((e.clientX / window.innerWidth) * 100);
@@ -25,6 +26,7 @@ const App = () => {
 
   return (
     <>
+      <Header />
       <main>
         <img
           className="waldo-pic"
