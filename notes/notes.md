@@ -36,3 +36,9 @@
 lets take the flag as an example
 min --> (45, 12)
 max --> (47, 19)
+
+## Components
+
+### Header
+
+the header component will contain the images the user needs to find
